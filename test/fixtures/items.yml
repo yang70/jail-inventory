@@ -1,0 +1,26 @@
+# Read about fixtures at
+# http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one:
+  name: Item 1
+  count: 20
+  minimum: 10
+  need: false
+  last_order: "2015-11-18 22:15:07"
+  location: "Janitor closet"
+  bob_barker_id: 1234
+  last_check: "2015-11-23 22:00:00"
+
+two:
+  name: Item 2
+  count: 35
+  minimum: 40
+  need: true
+  last_order: "2015-11-01 22:15:07"
+  location: "Inmate Property"
+  bob_barker_id: 4567
+  last_check: "2015-11-23 22:00:00"
